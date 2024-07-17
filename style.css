@@ -1,0 +1,130 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0px 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    height: 40px;
+    background-color: indigo;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.header-container span {
+    color: white;
+    font-weight: 300;
+}
+
+.header-container button {
+    color: white;
+    font-weight: 300;
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    width: 60vw;
+    max-width: 400px;
+    height: 220px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid indigo;
+    border-radius: 15px;
+}
+
+.login-form input {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid indigo;
+}
+
+.login-form input:focus {
+    outline: 2px solid indigo;
+    border: none
+}
+
+.login-btn {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid indigo;
+    background-color: rgb(126, 29, 196);
+    color: white;
+    transition: all .2s ease-in-out ;
+}
+
+.login-btn:hover {
+    background-color: indigo;
+}
+
+/* styles for profile page */
+
+.main-container {
+    width: 600px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.invoices-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0; 
+    font-family: Arial, sans-serif; 
+}
+
+.invoiceLine-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0; 
+    font-family: Arial, sans-serif; 
+}
+
+.invoices-table th {
+    background-color: rgb(167, 90, 223);
+    color: white;
+    padding: 10px; 
+    border: 1px solid #ddd;
+    text-align: center; 
+}
+
+.invoiceLine-table th {
+    background-color: rgb(167, 90, 223);
+    color: white;
+    padding: 10px; 
+    border: 1px solid #ddd;
+    text-align: center; 
+}
+
+.invoices-table td {
+    padding: 10px; 
+    border: 1px solid #ddd;
+    text-align: center; 
+}
+
+.invoiceLine-table td {
+    padding: 10px; 
+    border: 1px solid #ddd;
+    text-align: center; 
+}
+
